@@ -46,8 +46,8 @@ LinkList GetElem(LinkList L, int i) {
     for (int j = 1; j <= i; j++) {
         pre = pre->Next;
     }
-
-    return L;
+    
+    return pre;
 }
 
 LinkList InsertElem(LinkList& L, int i, int e){

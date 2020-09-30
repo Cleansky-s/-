@@ -4,14 +4,19 @@
 
 using namespace std;
 
-typedef struct Node* LinkList;
 int main()
 {  
 	LinkList L;
 	InitList(L);
 	Insert(L);
-	InsertElem(L, 3, 5);
-	DeleteElem(L, 5);
-	
+	for(int i = 0; i <= 9; i++) {
+		LinkList P;
+		int a[100];
+		P = GetElem(L, i + 1);
+		if (P == NULL) {
+			break;
+		};
+		a[i] = P->data;
+		cout << a[i] << endl;
+	}
 }
-
