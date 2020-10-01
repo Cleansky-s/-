@@ -19,4 +19,5 @@ int main()
 		a[i] = P->data;
 		cout << a[i] << endl;
 	}
+	return 0;
 }

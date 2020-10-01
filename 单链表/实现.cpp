@@ -12,7 +12,6 @@ typedef struct Node {
 }Node, *LinkList;
 
 
-
 bool InitList(LinkList &L) {
     L = (Node*)malloc(sizeof(Node));   //申请结点空间 
     if (L == NULL)                       //判断是否有足够的内存空间 

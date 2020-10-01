@@ -18,4 +18,4 @@ LinkList InsertElem(LinkList& L, int i, int e);
 LinkList Insert(LinkList& L);
 LinkList DeleteElem(LinkList& L, int i);
 
-#endif // !1
+#endif
